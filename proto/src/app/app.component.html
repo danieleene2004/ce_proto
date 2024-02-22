@@ -5,7 +5,7 @@
   <button class="button-57" (click)="brushP()"><span class="text">PANEL</span><span>place panel</span></button>
 
   <div *ngFor="let row of grid" style="height: 50px;">
-      <button style="width: 50px; height: 50px; border: 2px solid darkgreen;"  *ngFor="let block of row" (click)="apply(butt)" #butt>
+      <button style="width: 50px; height: 50px; border: 2px solid darkgreen;" onload="console.log('oaksdj');" *ngFor="let block of row" (click)="apply(butt)" #butt>
         &nbsp;
         <!--Empty html breaks when changing, &nbsp; is a code for space-->
       </button>

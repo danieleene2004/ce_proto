@@ -7,7 +7,7 @@ import { Block, BlockType } from './models';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
+  //@ViewChilds()
   width: number = 18;
   height: number = 15;
 

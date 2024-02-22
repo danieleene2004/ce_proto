@@ -1,3 +1,7 @@
 {
-    
+    "edificio": {
+        "lunghezza": 43,
+        "larghezza": 48,
+        "altezza": 49
+    }
 }
