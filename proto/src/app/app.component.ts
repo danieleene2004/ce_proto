@@ -27,7 +27,8 @@ export class AppComponent {
   }
 
   apply(button: HTMLButtonElement) {
-    button.innerHTML = this.brush == BlockType.empty ? "" : this.brush == BlockType.house ? "H" : "P";
+    // Empty html breaks when changing, &nbsp; is a code for space
+    button.innerHTML = this.brush == BlockType.empty ? "&nbsp;" : this.brush == BlockType.house ? "H" : "P";
   }
   
   brushE() {

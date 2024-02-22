@@ -1,7 +1,6 @@
 
 button {
-
-    transition: 0.3s;
+  transition: 0.3s;
 }
 button:hover {
     background-color: grey;
